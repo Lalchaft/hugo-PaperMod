@@ -1,0 +1,25 @@
+baseURL = "https://blog.ama-prevention.fr/"
+title = "AMA Prévention Blog"
+languageCode = "fr-fr"
+paginate = 10
+enableRobotsTXT = true
+
+# Utilisation de Hugo Modules pour PaperMod
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[params]
+  author = "AMA Prévention"
+  description = "Le blog d'AMA Prévention : Tout savoir sur le test salivaire THC, prévention, détection et solutions responsables."
+  showReadingTime = true
+  ShowToc = true
+  TocOpen = false
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
