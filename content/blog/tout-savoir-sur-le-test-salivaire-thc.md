@@ -9,12 +9,12 @@
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #FFFFFF;
-            color: #205180;
+            color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #205180;
+            background-color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
             color: #FFFFFF;
             padding: 20px;
             text-align: center;
@@ -38,13 +38,13 @@
             border: 1px solid #205180;
             padding: 15px;
             margin-bottom: 20px;
-            color: #205180;
+            color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
         }
         .sommaire h2 {
-            color: #205180;
+            color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
         }
         .sommaire ul li a {
-            color: #205180;
+            color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
             text-decoration: none;
         }
         .sommaire ul li a:hover {
@@ -57,7 +57,7 @@
             margin-bottom: 20px;
         }
         .article-card h2 {
-            color: #205180;
+            color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
         }
         .article-card p {
             line-height: 1.6;
@@ -72,7 +72,7 @@
             text-decoration: underline;
         }
         footer {
-            background-color: #205180;
+            background-color: #205180; white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
             color: #FFFFFF;
             text-align: center;
             padding: 10px;
@@ -90,7 +90,7 @@
     </header>
     <div class="container">
         <div class="sommaire">
-            <h2>Sommaire</h2>
+            <h2>Table des matières</h2>
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#reglementation">Réglementation française</a></li>
