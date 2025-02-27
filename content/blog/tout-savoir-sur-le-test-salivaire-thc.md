@@ -77,6 +77,20 @@
             text-align: center;
             padding: 10px;
         }
+        .article-image {
+    text-align: center;
+    margin: 20px 0;
+}
+.article-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-caption {
+    color: #205180;
+    font-size: 14px;
+    margin-top: 5px;
+}
     </style>
 </head>
 <body>
@@ -104,6 +118,10 @@
                 <li><a href="#achat">Où acheter un test fiable ?</a></li>
             </ul>
         </div>
+        <div class="article-image">
+    <img src="images/Saliva%20THC%20Ferm%C3%A9%20(1).jpg" alt="Test salivaire THC fermé" />
+    <p class="image-caption">Test salivaire THC fermé</p>
+</div>
         <div class="article-card" id="introduction">
             <h2>Introduction</h2>
             <p>Le <strong>test salivaire THC</strong> est un outil essentiel pour détecter la consommation de cannabis. Utilisé pour garantir la <strong>sécurité routière</strong> et la <strong>sécurité au travail</strong>, ce test détecte la présence de <strong>delta-9-THC</strong>, le composant psychoactif du cannabis, dans la salive. Cet article détaille son fonctionnement, la réglementation en vigueur, les seuils de détection, et les effets du <strong>CBD sur le test salivaire THC</strong>.</p>
