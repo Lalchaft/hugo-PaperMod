@@ -1,16 +1,73 @@
 /* Appliquer Poppins sur tout le site */
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
     font-family: 'Poppins', sans-serif;
+    color: #205180;
 }
 
-/* Personnalisation des titres */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #205180;
+}
+
+a {
+    color: #FE4B09;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #205180;
+    color: #FFFFFF;
+}
+
+nav a {
+    color: #FFFFFF;
     font-weight: 600;
 }
 
-/* Texte du corps */
-p, a, li, span, button, input, textarea {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+nav a:hover {
+    color: #FE4B09;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.sommaire {
+    background-color: #FFFFFF;
+    border: 1px solid #205180;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #205180;
+}
+
+.article-card {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-card h2 {
+    color: #205180;
+}
+
+.article-card a {
+    color: #FE4B09;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #205180;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
 }
