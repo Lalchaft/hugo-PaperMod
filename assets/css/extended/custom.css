@@ -1,0 +1,16 @@
+/* Appliquer Poppins sur tout le site */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Personnalisation des titres */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Texte du corps */
+p, a, li, span, button, input, textarea {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
