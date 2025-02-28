@@ -1,6 +1,12 @@
 /* Charger Poppins depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+/* Forcer le chargement de la police */
+html {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-display: swap;
+}
+
 /* Appliquer Poppins partout */
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
     font-family: 'Poppins', sans-serif !important;
@@ -40,10 +46,49 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Style des cartes d'article */
+.article-card {
+    background-color: #F5F5F5 !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-card h2 {
+    color: #205180 !important;
+}
+
+.article-card a {
+    color: #FE4B09 !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.article-card a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: #205180 !important;
     color: #FFFFFF !important;
     text-align: center;
     padding: 10px;
+}
+
+/* Boutons */
+button, .button {
+    background-color: #FE4B09 !important;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+button:hover, .button:hover {
+    background-color: #205180 !important;
+    color: #FFFFFF !important;
 }
