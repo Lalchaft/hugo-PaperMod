@@ -7,6 +7,7 @@ categories: ["Drogues et Santé Publique"]
 summary: "Découvrez combien de temps les drogues restent dans le corps. Guide complet sur les tests de dépistage et la sécurité routière."
 showToc: true
 TocOpen: true
+draft: false
 ---
 
 # Combien de Temps la Drogue Reste-t-elle dans Notre Organisme ? Découvrez les Faits Essentiels
@@ -97,4 +98,4 @@ Pour **prévenir les accidents** et **protéger des vies**, choisissez des **tes
 ---
 
 ## Meta Description  
-**"Découvrez combien de temps les drogues restent dans le corps. Guide complet sur les tests de dépistage et la sécurité routière."**  
+**"Découvrez combien de temps les drogues restent dans le corps. Guide complet sur les tests de dépistage et la sécurité routière."**
