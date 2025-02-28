@@ -1,73 +1,49 @@
-/* Appliquer Poppins sur tout le site */
+/* Charger Poppins depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+/* Appliquer Poppins partout */
 body, h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea {
-    font-family: 'Poppins', sans-serif;
-    color: #205180;
+    font-family: 'Poppins', sans-serif !important;
+    color: #205180 !important;
 }
 
+/* Titres et couleur principale */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    color: #205180;
+    font-weight: 600 !important;
+    color: #205180 !important;
 }
 
+/* Liens et hover */
 a {
-    color: #FE4B09;
+    color: #FE4B09 !important;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
 
-header {
-    background-color: #205180;
-    color: #FFFFFF;
-}
-
-nav a {
-    color: #FFFFFF;
-    font-weight: 600;
-}
-
-nav a:hover {
-    color: #FE4B09;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.sommaire {
-    background-color: #FFFFFF;
+/* Style du sommaire */
+.toc {
+    background-color: #FFFFFF !important;
     border: 1px solid #205180;
     padding: 15px;
     margin-bottom: 20px;
-    color: #205180;
+    color: #205180 !important;
 }
 
-.article-card {
-    background-color: #F5F5F5;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.article-card h2 {
-    color: #205180;
-}
-
-.article-card a {
-    color: #FE4B09;
+.toc a {
+    color: #205180 !important;
     text-decoration: none;
-    font-weight: 600;
 }
 
+.toc a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
-    background-color: #205180;
-    color: #FFFFFF;
+    background-color: #205180 !important;
+    color: #FFFFFF !important;
     text-align: center;
     padding: 10px;
 }
